@@ -6,7 +6,7 @@
 
 **Institución:** Facultad de Ingeniería, Universidad de Buenos Aires (FIUBA)
 
-**Autor/a:** Gustavo Julián Rivas
+**Autor:** Gustavo Julián Rivas
 
 **Fecha:** 25 de abril de 2025
 
