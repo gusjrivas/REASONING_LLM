@@ -1,10 +1,13 @@
 # REASONING_LLM
 
-# Proyecto Procesamiento del Lenguaje Natural 2 (FIUBA): LLM con Cadena de Pensamiento Simulada para Resolución de Problemas Complejos
+## Proyecto Procesamiento del Lenguaje Natural 2 (FIUBA): LLM con Cadena de Pensamiento Simulada para Resolución de Problemas Complejos
 
 **Curso:** Procesamiento del Lenguaje Natural 2
+
 **Institución:** Facultad de Ingeniería, Universidad de Buenos Aires (FIUBA)
+
 **Autor/a:** Gustavo Julián Rivas
+
 **Fecha:** 25 de abril de 2025
 
 ---
