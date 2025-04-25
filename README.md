@@ -95,26 +95,13 @@ Este flujo secuencial simula una cadena de pensamiento, donde la salida de una e
 
 ## 10. Uso de la Interfaz
 
-1.  La aplicación carga con una pregunta compleja de ejemplo en el área de texto. Puede modificarla o ingresar una nueva.
-2.  Presione el botón "**🚀 Iniciar Razonamiento**".
-3.  La interfaz mostrará un indicador de estado mientras el sistema procesa cada etapa (Descomposición, Verificación, Solución de Pasos, Síntesis).
-4.  La sección "**🤔 Cadena de Pensamiento**" se actualizará dinámicamente:
-    *   Se mostrará el plan generado y su revisión.
-    *   Los resultados detallados de cada paso aparecerán secuencialmente. Observe el formato matemático renderizado.
-5.  Una vez completado, se mostrará la "**✅ Respuesta Final Sintetizada**".
-6.  El reporte de "**📊 Tokens y Costo Estimado**" estará disponible al final.
-7.  Utilice el botón "**🔄 Nueva Consulta**" para limpiar los resultados y realizar otra prueba.
+1.  Verás un área de texto con una pregunta compleja de ejemplo (cálculo de construcción). Puedes modificarla o escribir la tuya.
+2.  Haz clic en el botón "**🚀 Iniciar Razonamiento**".
+3.  Observa la sección "**🤔 Cadena de Pensamiento**":
+    *   Aparecerá el plan generado por el LLM.
+    *   Luego, los resultados de cada paso se irán mostrando uno por uno a medida que el LLM los calcula.
+    *   Finalmente, se mostrará la respuesta final sintetizada.
+    *   Podrás expandir la sección "**📊 Ver Reporte de Tokens y Costo Estimado**" para ver el detalle del uso de la API.
+4.  Una vez terminado, puedes hacer clic en "**🔄 Nueva Consulta**" para limpiar los resultados y empezar de nuevo.
 
-## 11. Limitaciones y Trabajo Futuro
-
-*   **Precisión del LLM:** Aunque se usa GPT-4o y prompts detallados, la precisión de los cálculos intermedios realizados por el LLM no está 100% garantizada. Errores sutiles pueden ocurrir.
-*   **Dependencia del Plan:** La calidad de la respuesta final depende fuertemente de la calidad del plan generado en la primera etapa. Un plan incorrecto o incompleto llevará a resultados erróneos.
-*   **Manejo de Errores:** La detección y recuperación de errores es básica. Un sistema más robusto podría incluir reintentos o mecanismos de auto-corrección.
-*   **Generalización:** Si bien el marco es genérico, la efectividad para problemas muy diferentes al ejemplo dependerá de la capacidad del LLM para generar planes adecuados y ejecutar pasos variados.
-*   **Optimización de Costos/Tokens:** El enfoque multi-llamada puede consumir una cantidad significativa de tokens.
-*   **Trabajo Futuro:**
-    *   Implementar el **Enfoque Híbrido (Calculador Python):** Separar la ejecución de cálculos matemáticos a código Python para garantizar precisión absoluta, usando el LLM solo para planificación y extracción de datos (como se discutió previamente).
-    *   **Mecanismos de Re-planificación:** Permitir que el sistema revise y corrija el plan si un paso falla o la revisión inicial es negativa.
-    *   **Memoria/Estado Más Avanzado:** Incorporar memoria para manejar conversaciones o problemas que requieran recordar información a más largo plazo.
-
----
+¡Explora cómo el LLM aborda diferentes problemas complejos!
