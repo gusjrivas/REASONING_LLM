@@ -49,7 +49,7 @@ Este flujo secuencial simula una cadena de pensamiento, donde la salida de una e
 ## 5. Recursos Adicionales
 
 *   **Video Demostrativo:** Se incluye una breve demostración en video del funcionamiento de la aplicación en la carpeta `/video`.
-*   **Casos de Prueba:** La carpeta `/test_cases` contiene el archivo `prompts_ejemplo.txt` con ejemplos de preguntas complejas utilizadas durante las pruebas y el desarrollo.
+*   **Casos de Prueba:** La carpeta `/test_cases` contiene el archivo `test_cases.txt` con ejemplos de preguntas complejas utilizadas durante las pruebas y el desarrollo.
 
 ## 6. Requisitos Previos
 
@@ -107,4 +107,4 @@ Este flujo secuencial simula una cadena de pensamiento, donde la salida de una e
     *   Podrás expandir la sección "**📊 Ver Reporte de Tokens y Costo Estimado**" para ver el detalle del uso de la API.
 4.  Una vez terminado, puedes hacer clic en "**🔄 Nueva Consulta**" para limpiar los resultados y empezar de nuevo.
 
-¡Explora cómo el LLM aborda diferentes problemas complejos!
+
