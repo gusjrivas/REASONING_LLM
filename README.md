@@ -71,4 +71,3 @@ La interfaz, construida con **Streamlit**, muestra dinámicamente cada etapa del
     *   Podrás expandir la sección "**📊 Ver Reporte de Tokens y Costo Estimado**" para ver el detalle del uso de la API.
 4.  Una vez terminado, puedes hacer clic en "**🔄 Nueva Consulta**" para limpiar los resultados y empezar de nuevo.
 
-¡Explora cómo el LLM aborda diferentes problemas complejos!
