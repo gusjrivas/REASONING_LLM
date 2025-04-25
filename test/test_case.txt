@@ -1,0 +1,47 @@
+CASE1:
+
+Calcula el costo total de construcción de una estructura circular compuesta por:
+	1. Una base de hormigón cilíndrica de 6 metros de diámetro y 0.5 metros de espesor.
+	2. Muros cilíndricos macizos de 3 metros de altura con un grosor de 0.25 metros (volumen como anillo cilíndrico).
+	3. Un techo plano circular de 0.2 metros de espesor, que cubre toda la estructura.
+Considera:
+	• Costo del hormigón: $125 por m³
+	• 15% adicional por desperdicio de material sobre el volumen calculado
+	• Costo de mano de obra: $38 por m³ de hormigón efectivamente utilizado (sin desperdicio)
+	• 5% de descuento si el costo total (material + mano de obra) supera los $10,000
+
+dame el costo total como salida solo en numeros
+
+----------------------------------------------------------------------------------------------------------------------------------------
+CASE 2:
+
+Se desea construir una plataforma de exhibición circular para un evento: Una plataforma circular de 5 m de diámetro y 0.3 m de espesor. 
+Un escalón perimetral en forma de anillo circular de 0.2 m de altura y 0.4 m de ancho (grosor), alrededor de la base de la plataforma. 
+Condiciones: 
+Toda la estructura es de cemento armado. 
+Costo del material: $110/m³ 15% de desperdicio de material 
+Mano de obra: $35/m³ (sin desperdicio) 5% de descuento si el total supera los $6,000
+
+dame el costo total como salida solo en numeros
+
+-------------------------------------------------------------------------------------------------------------------------------
+
+CASE 3:
+
+Se desea construir una pequeña estructura rectangular de dos pisos que sirva como sala de máquinas y depósito.
+
+Características:
+Planta baja (PB): Base de hormigón armado de 5 m x 4 m y 0.25 m de espesor.
+Muros perimetrales de 2.5 m de altura y 0.2 m de espesor.
+Primer piso (P1):Losa de entrepiso del mismo tamaño que la planta baja (5 m x 4 m y 0.2 m de espesor).
+Muros perimetrales iguales a los de la planta baja.
+Techo plano: Mismo tamaño (5 m x 4 m) y espesor 0.2 m.
+
+Condiciones:
+Toda la estructura se construye en hormigón armado.
+Costo del material: $100/m³
+Desperdicio: 10%
+Mano de obra: $30/m³ (sin desperdicio)
+Descuento del 5% si el total supera los $7,000
+
+Dame el costo total como salida solo en numeros
